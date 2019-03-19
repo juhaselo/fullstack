@@ -1,0 +1,11 @@
+title Single page app uusi muistiinpano
+
+
+selain-> palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin->selain: Lähetä JSON datana
+
+note over selain:
+{content: "taas", date: "2019-03-19T11:06:37.614Z"}
+content: "taas"
+date: "2019-03-19T11:06:37.614Z"
+end note

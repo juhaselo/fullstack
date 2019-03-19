@@ -1,0 +1,16 @@
+title Single page app
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+palvelin->selain: HTML koodi
+
+
+selain-> palvelin: HTTP https://fullstack-exampleapp.herokuapp.com/main.css
+palvelin-> selain: CSS koodi
+
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+palvelin-> selain:  JS Koodi
+
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+palvelin-> selain:  JSON data

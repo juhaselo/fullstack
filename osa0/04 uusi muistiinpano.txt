@@ -1,0 +1,28 @@
+title Uusi note
+
+note over selain:
+Lähetetään lomakken tiedot
+end note
+
+selain-> palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+
+palvelin->selain: Lähetä HTML muodossa
+
+note over selain:
+Tämän jälkeen ladataan taas HTML CSS JS ja JSON
+end note
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+palvelin-> selain: HTML koodi
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+palvelin-> selain: CSS koodi
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+palvelin-> selain: JS koodi
+
+selain-> palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+palvelin-> selain: JSON data
+
+
+
